@@ -1,0 +1,98 @@
+# Translation of Themes - BCF Shop in French (France)
+# This file is distributed under the same license as the Themes - BCF Shop package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-04 23:38:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - BCF Shop\n"
+
+#. Theme Name of the theme
+msgid "BCF Shop"
+msgstr "BCF Shop"
+
+#: woocommerce/single-product/related.php:26
+msgid "Related products"
+msgstr "Produits similaires"
+
+#: woocommerce/cart/cart.php:91
+msgid "Available on backorder"
+msgstr "Disponible sur commande"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:120
+msgid "Total"
+msgstr "Total"
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:102
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr "Prix"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:76
+msgid "Product"
+msgstr "Produit"
+
+#: woocommerce/result-count.php:64
+msgid "ALL:"
+msgstr "Tout :"
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr "Voir :"
+
+#: woocommerce/single-product/add-to-cart/variation.php:22
+msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgstr "Désolé, ce produit n’est pas disponible. Veuillez choisir une combinaison différente."
+
+#: woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr "Vider"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Ce produit est actuellement en rupture de stock et indisponible."
+
+#: woocommerce/single-product/rating.php:38
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s évaluation client"
+msgstr[1] "%s évaluations client"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr "Passer à la validation de commande"
+
+#: woocommerce/cart/cart.php:143
+msgid "Update cart"
+msgstr "Mettre à jour le panier"
+
+#: woocommerce/cart/cart.php:138
+msgid "Apply coupon"
+msgstr "Appliquer le code promo"
+
+#: woocommerce/cart/cart.php:138
+msgid "Coupon code"
+msgstr "Code promo"
+
+#: woocommerce/cart/cart.php:138
+msgid "Coupon:"
+msgstr "Code promo :"
+
+#: woocommerce/cart/cart.php:57
+msgid "Remove this item"
+msgstr "Retirer cet élément"
+
+#. Author URI of the theme
+msgid "https://www.athemeart.com"
+msgstr "https://www.athemeart.com"
+
+#. Author of the theme
+msgid "aThemeArt"
+msgstr "aThemeArt"

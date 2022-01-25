@@ -1,0 +1,23 @@
+2022-01-24T09:39:52+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_edit_my_account_page() in /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/themes/ecommerce-solution/functions.php:579
+Stack trace:
+#0 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/class-wp-hook.php(303): edit_my_account_page_woocommerce()
+#1 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/plugins/woocommerce/templates/myaccount/form-login.php(103): do_action()
+#4 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('...')
+#5 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(57): wc_get_template()
+#6 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output()
+#7 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper()
+#8 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/shortcodes.php(356): WC_Shortcodes::my_account()
+#9 [internal function]: do_shortcode_tag()
+#10 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/shortcodes.php(228): preg_replace_callback()
+#11 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/class-wp-hook.php(303): do_shortcode()
+#12 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#13 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/post-template.php(253): apply_filters()
+#14 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/themes/ecommerce-solution/page.php(21): the_content()
+#15 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-includes/template-loader.php(106): include('...')
+#16 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-blog-header.php(19): require_once('...')
+#17 /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/index.php(17): require('...')
+#18 {main}
+  thrown dans /var/www/vhosts/antoine-maherault.students-laplateforme.io/httpdocs/moncms/wp-content/themes/ecommerce-solution/functions.php à la ligne 579
+

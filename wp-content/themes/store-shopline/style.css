@@ -1,0 +1,164 @@
+/*
+ Theme Name:   Store Shopline
+ Theme URI:    http://www.themehunk.com/product/store-shopline/
+ Description:  Store shopline is a child theme of shopline, This theme is suitable for creating almost any type of shopping site.
+ Author:       ThemeHunk Team
+ Author URI:   http://www.themehunk.com/
+ Template:     shopline
+ Version:      1.0.5
+ Requires at least: 4.5
+ Tested up to: 5.5.1
+ Requires PHP: 5.6
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:one-column, two-columns, grid-layout, right-sidebar, custom-colors, custom-menu, theme-options, sticky-post, translation-ready, footer-widgets, blog  
+ Text Domain: store-shopline
+*/
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+      margin: 30px!important;
+}
+.cart-widget .cart-crl, .cat-grid .catli figure.cat-img:hover .caption-heading, .woocommerce .featured-grid a.button, .featured-grid .quick-view, .featured-grid .add_to_wishlist_a{
+ background-image: linear-gradient(90deg,#f92c8b 0%,#b02cd6 100%)!important;
+}
+.hero-wrap .container_caption a.slider-button, #aboutus_section a.amazing-btn, .lst-post .read-more a{
+    border-width: 0px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    background-image: linear-gradient(90deg,#f92c8b 0%,#b02cd6 100%)!important;
+       box-shadow: 0px 20px 30px -15px rgba(160, 160, 160, 0.75);
+}
+.figure-testimonial:hover {
+    background: #1e88e9;
+    background: -moz-linear-gradient(45deg, #1e88e9 0%, #72d5f4 100%);
+    background: -webkit-linear-gradient(45deg, #1e88e9 0%,#72d5f4 100%);
+    background: linear-gradient(45deg, #1e88e9 0%,#72d5f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e88e9', endColorstr='#72d5f4',GradientType=1 );
+transition: background-color, color 0.2s linear;
+}
+.figure-testimonial{
+background: rgba(255,255,255,.1);
+transition: background-color, color 0.2s linear;
+}
+.testimonial-content.item p, #testimonial_section a.web-link, .figure-testimonial h4 {
+    color: #fff;
+}
+.hero-wrap .container_caption a.slider-button:hover, #aboutus_section a.amazing-btn:hover, .lst-post .read-more a:hover{
+   color:#fff;
+ letter-spacing: 7px;
+}
+.lst-post .read-more a{
+background:#ddd!important
+}
+footer.footer-wrp{
+margin-bottom: 30px!important;
+}
+
+.header-wrapper .title-desc {
+        margin-top: 54px;
+}
+.navigation .menu > li > a {
+    padding: 60px 10px 30px 10px;
+}
+.header-extra .top-list a.tooltip, .header-extra .top-list a.cart-contents {
+ padding:  57px 10px 30px 10px;
+}
+.menu-item-has-children > a:before {
+    top: 57%;
+}
+.menu-item-has-children > a:after {
+    top: 60%;
+}
+.hero-wrap {
+    margin: 0px 0 30px 0;
+}
+section#featured_product_section1.parallax{
+margin-bottom:30px!important;
+}
+section#category_section.parallax, section#ribbon_section.parallax, section#featured_product_section.parallax, section#testimonial_section.parallax, section#aboutus_section.parallax, section#post_section.parallax, section#best_sell_section.parallax, section#brand_section.parallax, footer#footer-wrp.parallax, #hero-image.parallax, section#featured_product_section1.parallax, .hot-wrapper, section#services, .testimonial_wrapper{
+margin:15px 0;
+box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+       box-shadow: 3px 0 3px -3px #e6e6e6, -3px 0 3px -3px #e6e6e6;
+    -moz-box-shadow: 3px 0 3px -3px #e6e6e6 , -3px 0 3px -3px #e6e6e6;
+    -webkit-box-shadow: 3px 0 3px -3px #e6e6e6, -3px 0 3px -3px #e6e6e6;
+}
+.block-heading h2, .vedio-ribbon .video-title h2 {
+    font-size: 43px;
+    line-height: 50px;
+}
+footer#footer-wrp {
+    margin-bottom: 30px;
+}
+.woocommerce img, .woocommerce-page img, .hot-sell-block ul.sell li img{
+ box-shadow: 3px 0 3px -3px #e6e6e6, -3px 0 3px -3px #e6e6e6;
+    -moz-box-shadow: 3px 0 3px -3px #e6e6e6 , -3px 0 3px -3px #e6e6e6;
+    -webkit-box-shadow: 3px 0 3px -3px #e6e6e6, -3px 0 3px -3px #e6e6e6;
+}
+.header-wrapper .logo img{
+box-shadow:none;
+}
+
+section#ribbon_section.parallax{
+    background-image: linear-gradient(90deg,rgba(255, 243, 249, 0.7) 0%,rgba(176, 44, 214, 0.69) 100%)!important;
+}
+.vedio-ribbon .video-title h2{
+font-size: 43px;
+    line-height: 50px;
+}
+.block-services ul.services-list li .wrap .icon i{
+background-image: linear-gradient(90deg,#f92c8b 0%,#b02cd6 100%)!important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer.footer-wrp .footer-menu-wrp-right ul li img {
+     box-shadow: none;
+}
+
+@media screen and (max-width: 1024px){
+.navigation .menu > li > a {
+    padding: 14px 0;
+	}
+.header-extra .top-list a.tooltip, .header-extra .top-list a.cart-contents {
+    padding: 27px 10px;
+}
+#pull {
+    top: 27px;
+	}
+.header-wrapper .title-desc {
+    margin-top: 27px;
+}
+}
+@media screen and (min-width: 769px){
+.hero-wrap .container_caption h2 a{
+font-size:84px;
+line-height:84px!important;
+}
+}
+@media screen and (max-width: 767px){
+body {
+    margin: 0px!important;
+}
+section#category_section.parallax, section#ribbon_section.parallax, section#featured_product_section.parallax, section#testimonial_section.parallax, section#aboutus_section.parallax, section#post_section.parallax, section#best_sell_section.parallax, section#brand_section.parallax, footer#footer-wrp.parallax, #hero-image.parallax, section#featured_product_section1.parallax, .hot-wrapper, section#services, .testimonial_wrapper {
+    margin: 0;
+}
+section#featured_product_section1.parallax, footer#footer-wrp, .hero-wrap {
+    margin-bottom: 0px!important;
+}
+.header-wrapper .title-desc {
+    margin-top: 27px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.header-wrapper {
+    padding-top: 20px;
+}
+}
